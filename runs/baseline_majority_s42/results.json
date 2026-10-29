@@ -1,0 +1,6 @@
+{
+  "name": "baseline_majority",
+  "seed": 42,
+  "test_acc": 0.10000000149011612,
+  "test_macro_f1": 0.01818181946873665
+}

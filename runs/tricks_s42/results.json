@@ -1,0 +1,53 @@
+{
+  "name": "tricks",
+  "seed": 42,
+  "test_acc": 0.9337000250816345,
+  "test_macro_f1": 0.9335645437240601,
+  "test_loss": 0.257708877325058,
+  "test_acc_tta": 0.9373999834060669,
+  "test_macro_f1_tta": 0.9372295141220093,
+  "per_class_f1": {
+    "T-shirt/top": 0.8888888955116272,
+    "Trouser": 0.9869608879089355,
+    "Pullover": 0.9049544930458069,
+    "Dress": 0.9286071062088013,
+    "Coat": 0.909002423286438,
+    "Sandal": 0.9844611287117004,
+    "Shirt": 0.8070886135101318,
+    "Sneaker": 0.9668152332305908,
+    "Bag": 0.9919999837875366,
+    "Ankle boot": 0.9668674468994141
+  },
+  "top_confusions": [
+    {
+      "true": "Shirt",
+      "pred": "T-shirt/top",
+      "count": 82
+    },
+    {
+      "true": "T-shirt/top",
+      "pred": "Shirt",
+      "count": 72
+    },
+    {
+      "true": "Shirt",
+      "pred": "Coat",
+      "count": 62
+    },
+    {
+      "true": "Pullover",
+      "pred": "Shirt",
+      "count": 45
+    },
+    {
+      "true": "Shirt",
+      "pred": "Pullover",
+      "count": 34
+    },
+    {
+      "true": "Pullover",
+      "pred": "Coat",
+      "count": 33
+    }
+  ]
+}

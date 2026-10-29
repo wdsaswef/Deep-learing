@@ -1,0 +1,53 @@
+{
+  "name": "mixup",
+  "seed": 42,
+  "test_acc": 0.9341999888420105,
+  "test_macro_f1": 0.9339356422424316,
+  "test_loss": 0.26423710584640503,
+  "test_acc_tta": 0.9365000128746033,
+  "test_macro_f1_tta": 0.9361492395401001,
+  "per_class_f1": {
+    "T-shirt/top": 0.8841372728347778,
+    "Trouser": 0.9904570579528809,
+    "Pullover": 0.9147756099700928,
+    "Dress": 0.9266833066940308,
+    "Coat": 0.9097087383270264,
+    "Sandal": 0.9819276928901672,
+    "Shirt": 0.8134020566940308,
+    "Sneaker": 0.9643564224243164,
+    "Bag": 0.9885286688804626,
+    "Ankle boot": 0.9653788208961487
+  },
+  "top_confusions": [
+    {
+      "true": "Shirt",
+      "pred": "T-shirt/top",
+      "count": 94
+    },
+    {
+      "true": "T-shirt/top",
+      "pred": "Shirt",
+      "count": 63
+    },
+    {
+      "true": "Shirt",
+      "pred": "Coat",
+      "count": 58
+    },
+    {
+      "true": "Pullover",
+      "pred": "Coat",
+      "count": 37
+    },
+    {
+      "true": "Shirt",
+      "pred": "Pullover",
+      "count": 35
+    },
+    {
+      "true": "Pullover",
+      "pred": "Shirt",
+      "count": 31
+    }
+  ]
+}

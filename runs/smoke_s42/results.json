@@ -1,0 +1,53 @@
+{
+  "name": "smoke",
+  "seed": 42,
+  "test_acc": 0.10400000214576721,
+  "test_macro_f1": 0.034868013113737106,
+  "test_loss": 2.3642282485961914,
+  "test_acc_tta": 0.09700000286102295,
+  "test_macro_f1_tta": 0.032475102692842484,
+  "per_class_f1": {
+    "T-shirt/top": 0.18595825135707855,
+    "Trouser": 0.0,
+    "Pullover": 0.0,
+    "Dress": 0.0,
+    "Coat": 0.1627218872308731,
+    "Sandal": 0.0,
+    "Shirt": 0.0,
+    "Sneaker": 0.0,
+    "Bag": 0.0,
+    "Ankle boot": 0.0
+  },
+  "top_confusions": [
+    {
+      "true": "Sandal",
+      "pred": "Coat",
+      "count": 67
+    },
+    {
+      "true": "Trouser",
+      "pred": "Coat",
+      "count": 66
+    },
+    {
+      "true": "Bag",
+      "pred": "Coat",
+      "count": 61
+    },
+    {
+      "true": "Dress",
+      "pred": "Coat",
+      "count": 59
+    },
+    {
+      "true": "Pullover",
+      "pred": "Coat",
+      "count": 57
+    },
+    {
+      "true": "Shirt",
+      "pred": "Coat",
+      "count": 57
+    }
+  ]
+}

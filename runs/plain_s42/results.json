@@ -1,0 +1,53 @@
+{
+  "name": "plain",
+  "seed": 42,
+  "test_acc": 0.9358999729156494,
+  "test_macro_f1": 0.9358779788017273,
+  "test_loss": 0.18534305691719055,
+  "test_acc_tta": 0.9361000061035156,
+  "test_macro_f1_tta": 0.9360000491142273,
+  "per_class_f1": {
+    "T-shirt/top": 0.8894447088241577,
+    "Trouser": 0.991983950138092,
+    "Pullover": 0.9089089035987854,
+    "Dress": 0.9307923913002014,
+    "Coat": 0.9155069589614868,
+    "Sandal": 0.9834586381912231,
+    "Shirt": 0.8120300769805908,
+    "Sneaker": 0.9668480753898621,
+    "Bag": 0.9915127158164978,
+    "Ankle boot": 0.9682939052581787
+  },
+  "top_confusions": [
+    {
+      "true": "Shirt",
+      "pred": "T-shirt/top",
+      "count": 86
+    },
+    {
+      "true": "T-shirt/top",
+      "pred": "Shirt",
+      "count": 72
+    },
+    {
+      "true": "Pullover",
+      "pred": "Shirt",
+      "count": 46
+    },
+    {
+      "true": "Shirt",
+      "pred": "Coat",
+      "count": 45
+    },
+    {
+      "true": "Coat",
+      "pred": "Shirt",
+      "count": 36
+    },
+    {
+      "true": "Shirt",
+      "pred": "Pullover",
+      "count": 35
+    }
+  ]
+}
